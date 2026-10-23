@@ -1,6 +1,6 @@
 # 实时运动控制固件
 
-ROS 2 多模态智能搬运机器人 · `ros2-logistics-firmware`。
+ROS 2 多模态 AI 智能搬运机器人 · `ros2-logistics-firmware`。
 
 ## 职责
 
