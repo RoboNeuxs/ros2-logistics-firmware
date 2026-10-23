@@ -1,37 +1,21 @@
 # 实时运动控制固件
 
-ROS 2 多模态 AI 智能搬运机器人 · `ros2-logistics-firmware`。
-
-## 职责
+ROS 2 多模态 AI 智能搬运机器人 · `ros2-logistics-firmware`
 
 MCU 外设、编码器、四轮闭环和停车保护。
 
-## 任务模块
+[任务](https://github.com/RoboNeuxs/ros2-logistics-firmware/issues) · [提交 PR](https://github.com/RoboNeuxs/ros2-logistics-firmware/pulls) · [开发入口](https://github.com/RoboNeuxs/ros2-logistics-developer-hub)
+
+## 做什么
 
 - **M02 实时驱动与闭环控制**
 
-## 输入与交付
+具体任务的输入、做法和验收条件见 Issue。
 
-输入：对应 Issue、已确认硬件资料、公共接口基线和上游模块的受控版本。
+## 怎么提交
 
-交付：本模块工程、配置、验证记录，以及每个步骤的完成说明或使用教程。具体指标、负责人和排期在对应 Issue 中确认。
+1. 认领 Issue，在 `feature/任务ID-简述` 分支完成修改。
+2. 提交目标为 `main` 的 PR，关联 Issue，简述改动和验证结果。
+3. 指定技术审核人确认后，由合并负责人合并并关闭任务。
 
-## 开始工作
-
-1. 阅读 [开发入口](https://github.com/RoboNeuxs/ros2-logistics-developer-hub) ，认领对应任务并确认交付与验收要求。
-2. 在 Issues 中确认模块工作项与验收条件，再拆分具体任务。
-3. 开发成果通过 PR 提交，附教程和验证记录。
-4. 每完成一步，在 `docs/` 添加完成说明或教程，更新 [文档索引](docs/README.md)。
-
-## 文档
-
-- [仓库初始化说明与使用方法](docs/00-仓库初始化说明.md)
-- [步骤完成说明与使用教程模板](docs/templates/步骤完成说明与使用教程.md)
-- [开发提交规范](https://github.com/RoboNeuxs/ros2-logistics-developer-hub/blob/main/CONTRIBUTING.md)
-- [公共接口仓库](https://github.com/RoboNeuxs/ros2-logistics-interfaces)
-
-## 当前状态
-
-仓库与协作模板已初始化；技术任务按 Issue 开展。
-
-[整车工程如何集成](https://github.com/RoboNeuxs/ros2-logistics-developer-hub/blob/main/docs/01-整车工程集成方式.md)
+不要求单独编写完整教程。禁止直接推送 main、强制推送、覆盖他人修改或提交密钥。Free 私有仓库的 main 审核规则当前依靠人工执行。
