@@ -24,7 +24,7 @@ MCU 外设、编码器、四轮闭环和停车保护。
 
 ## 开始工作
 
-1. 阅读 [开发入口](https://github.com/RoboNeuxs/ros2-logistics-developer-hub) ，认领对应任务并确认交付与验收要求。
+1. 阅读 [开发入口](https://github.com/RoboNeuxs/ros2-logistics-hub) ，认领对应任务并确认交付与验收要求。
 2. 在 Issues 中确认模块工作项与验收条件，再拆分具体任务。
 3. 在个人 Fork 开发，成果通过跨仓库 PR 提交到组织本仓库，附教程和验证记录，等待项目总负责人审核合并。
 4. 每完成一步，在 `docs/` 添加完成说明或教程，更新 [文档索引](docs/README.md)。
@@ -33,11 +33,11 @@ MCU 外设、编码器、四轮闭环和停车保护。
 
 - [仓库初始化说明与使用方法](docs/00-仓库初始化说明.md)
 - [步骤完成说明与使用教程模板](docs/templates/步骤完成说明与使用教程.md)
-- [开发提交规范](https://github.com/RoboNeuxs/ros2-logistics-developer-hub/blob/main/CONTRIBUTING.md)
+- [开发提交规范](https://github.com/RoboNeuxs/ros2-logistics-hub/blob/main/CONTRIBUTING.md)
 - [公共接口仓库](https://github.com/RoboNeuxs/ros2-logistics-interfaces)
 
 ## 当前状态
 
 仓库与协作模板已初始化；技术任务按 Issue 开展。
 
-[整车工程如何集成](https://github.com/RoboNeuxs/ros2-logistics-developer-hub/blob/main/docs/01-整车工程集成方式.md)
+[整车工程如何集成](https://github.com/RoboNeuxs/ros2-logistics-hub/blob/main/docs/01-整车工程集成方式.md)
