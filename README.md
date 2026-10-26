@@ -20,7 +20,7 @@ MCU 外设、编码器、四轮闭环和停车保护。
 | [Keil 工程](STM32/STM32F103C8T6.uvprojx) | 使用 Arm Compiler 6.22 构建 |
 | [一键构建](STM32/Build_HEX.cmd) | 生成并校验 HEX/BIN，保存旧固件 |
 | [V4 串口协议](STM32/docs/protocol.md) | 帧格式、命令、参数与状态反馈 |
-| [ESP32 控制 STM32 串口命令](docs/02-ESP32控制STM32串口命令.md) | ESP32 接线与初始化、完整 HEX 命令、CRC、应答与心跳时序 |
+| [ESP32 控制 STM32 串口命令](docs/02-ESP32控制STM32串口命令.md) | 命令码、参数、模式及完整 HEX 指令速查 |
 | [导入与验证记录](docs/01-STM32固件导入与验证记录.md) | 本次交付范围、复现命令、实测结果和待验收项 |
 
 首次使用请从操作手册开始。VS Code 打开 `STM32/` 文件夹；生成的烧录文件在本地 `STM32/Build/`，按已有忽略规则不纳入 Git。
