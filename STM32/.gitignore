@@ -1,0 +1,9 @@
+Build/*
+!Build/README.md
+MDK-ARM/*.uvguix.*
+MDK-ARM/JLinkLog.txt
+MDK-ARM/EventRecorderStub.scvd
+__pycache__/
+*.pyc
+**/.vscode/*.log
+**/.vscode/*.log.lock
